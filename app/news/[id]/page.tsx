@@ -17,7 +17,7 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">Article Not Found</h1>
-          <p className="text-muted-foreground">The article you're looking for doesn't exist.</p>
+          <p className="text-muted-foreground">The article you&apos;re looking for doesn&apos;t exist.</p>
         </div>
       </div>
     );

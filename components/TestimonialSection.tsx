@@ -76,7 +76,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof testimonials[0] 
             ))}
           </div>
           <blockquote className="text-sm text-muted-foreground">
-            "{testimonial.content}"
+            &quot;{testimonial.content}&quot;
           </blockquote>
         </div>
       </CardContent>
