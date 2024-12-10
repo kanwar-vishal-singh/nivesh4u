@@ -7,7 +7,7 @@ export default function Logo() {
   return (
     <Link href="/" className="block">
       <Image
-        src="/assets/images/logo.png"
+        src="public/assets/images/logo.png"
         alt="Nivesh4U"
         width={140}
         height={50}
