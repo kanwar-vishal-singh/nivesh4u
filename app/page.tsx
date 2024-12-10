@@ -27,7 +27,7 @@ export default function Home() {
         <ToolsSection />
         <TestimonialSection />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
