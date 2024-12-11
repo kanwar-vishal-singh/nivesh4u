@@ -9,7 +9,7 @@ import PropertyOwner from "@/components/property/detail/PropertyOwner";
 import PropertyLocation from "@/components/property/detail/PropertyLocation";
 import SimilarProperties from "@/components/property/detail/SimilarProperties";
 import { NotFound } from "@/components/property/detail/NotFound";
-import Footer from "@/components/footer/Footer";
+// import Footer from "@/components/footer/Footer";
 
 interface PropertyDetailClientProps {
   property: Property | undefined;
@@ -40,7 +40,7 @@ export default function PropertyDetailClient({ property, similarProperties }: Pr
           </div>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

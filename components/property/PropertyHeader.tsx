@@ -11,8 +11,8 @@ export default function PropertyHeader() {
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Property & Land</h1>
             <p className="text-muted-foreground max-w-2xl">
-              Discover premium properties and land opportunities across India. 
-              From commercial spaces to agricultural lands, find your next 
+              Discover premium properties and land opportunities across India.
+              From commercial spaces to agricultural lands, find your next
               investment with our curated listings.
             </p>
             <div className="flex gap-4">

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { newsData } from "@/data/news";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock } from "lucide-react";
@@ -17,7 +18,7 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">Article Not Found</h1>
-          <p className="text-muted-foreground">The article you&apos;re looking for doesn&apos;t exist.</p>
+          <p className="text-muted-foreground">The article you're looking for doesn't exist.</p>
         </div>
       </div>
     );
@@ -36,11 +37,11 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
         <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
       </div>
 
-      <div className="container max-w-screen-xl mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto -mt-32 relative">
           <div className="bg-card rounded-lg p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-4">
-              <Badge variant="secondary" style={{ backgroundColor: "#FF4C13", color: "white" }}>{article.category}</Badge>
+              <Badge variant="secondary">{article.category}</Badge>
               <div className="flex items-center gap-1 text-sm text-muted-foreground">
                 <Calendar className="h-4 w-4" />
                 <span>{new Date(article.date).toLocaleDateString()}</span>

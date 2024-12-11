@@ -7,7 +7,7 @@ export default function NewsPage() {
   return (
     <main className="min-h-screen bg-background">
       <div className="bg-muted">
-        <div className="container max-w-screen-xl mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-16">
           <h1 className="text-4xl font-bold mb-4">Financial News & Insights</h1>
           <p className="text-xl text-muted-foreground">
             Stay informed with the latest market news, analysis, and expert insights

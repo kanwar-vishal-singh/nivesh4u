@@ -59,9 +59,8 @@ export default function PropertyGallery({ images }: PropertyGalleryProps) {
             {images.map((image, index) => (
               <Card
                 key={index}
-                className={`relative aspect-[4/3] cursor-pointer overflow-hidden ${
-                  index === activeImage ? "ring-2 ring-primary" : ""
-                }`}
+                className={`relative aspect-[4/3] cursor-pointer overflow-hidden ${index === activeImage ? "ring-2 ring-primary" : ""
+                  }`}
                 onClick={() => setActiveImage(index)}
               >
                 <Image

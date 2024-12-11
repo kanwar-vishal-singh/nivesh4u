@@ -10,7 +10,7 @@ export default function FeatureSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
-            <CardTitle className="text-secondary">Professional Trading Tools</CardTitle>
+            <CardTitle>Professional Trading Tools</CardTitle>
             <CardTitle className="text-primary">For Smart Investors</CardTitle>
           </CardHeader>
           <CardContent>

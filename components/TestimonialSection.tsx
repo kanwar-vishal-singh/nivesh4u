@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import {
@@ -66,7 +67,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof testimonials[0] 
               <AvatarFallback style={{ backgroundColor: "#0A4570", color: "#ffffff" }}>{testimonial.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
             </Avatar>
             <div>
-              <h3 className="text-lgfont-semibold">{testimonial.name}</h3>
+              <h3 className="font-semibold">{testimonial.name}</h3>
               <p className="text-sm text-muted-foreground">{testimonial.role}</p>
             </div>
           </div>
@@ -76,7 +77,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof testimonials[0] 
             ))}
           </div>
           <blockquote className="text-sm text-muted-foreground">
-            &quot;{testimonial.content}&quot;
+            "{testimonial.content}"
           </blockquote>
         </div>
       </CardContent>

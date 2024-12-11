@@ -4,7 +4,8 @@ import PropertyHeader from "@/components/property/PropertyHeader";
 import PropertyFilters from "@/components/property/PropertyFilters";
 import PropertyGrid from "@/components/property/PropertyGrid";
 import { useState } from "react";
-import { PropertyType, PropertyFilter } from "@/types/property";
+import { PropertyFilter } from "@/types/property";
+import { Property } from "@/types/property";
 
 export default function PropertyPage() {
   const [filters, setFilters] = useState<PropertyFilter>({

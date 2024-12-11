@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "@/components/footer/Footer";
+// import Footer from "@/components/footer/Footer";
 import Hero from "@/components/sections/hero/Hero";
 import ServiceGrid from "@/components/sections/services/ServiceGrid";
 import BusinessLoanSection from "@/components/BusinessLoanSection";

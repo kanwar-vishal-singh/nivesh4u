@@ -22,9 +22,9 @@ export default function Footer() {
             <FooterLinks />
           </div>
         </div>
-        
+
         <Separator className="my-8" />
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <FooterNewsletter />
           <div className="text-sm text-muted-foreground lg:text-right">

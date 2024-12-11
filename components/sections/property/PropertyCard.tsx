@@ -27,10 +27,10 @@ export default function PropertyCard({ title, location, price, type, size }: Pro
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <div className="text-sm">
-            <span className="text-muted-foreground">Type:</span> {type}
+          <div className="text-sm" style={{ fontSize: " 0.775rem" }}>
+            <span className="text-muted-foreground" >Type:</span> {type}
           </div>
-          <div className="text-sm">
+          <div className="text-sm" style={{ fontSize: " 0.775rem" }}>
             <span className="text-muted-foreground">Size:</span> {size}
           </div>
         </div>
